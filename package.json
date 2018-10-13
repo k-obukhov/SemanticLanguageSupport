@@ -1,0 +1,26 @@
+{
+    "name": "LearnProgramming",
+    "displayName": "SemanticLanguage",
+    "description": "SemanticLanguage Support for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NothingIsGood",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "semanticlanguage",
+            "aliases": ["Semantic Language", "semanticlanguage"],
+            "extensions": [".sl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "semanticlanguage",
+            "scopeName": "source.semlang",
+            "path": "./syntaxes/semanticlanguage.tmLanguage.json"
+        }]
+    }
+}
