@@ -119,7 +119,7 @@
             "patterns":  [
                 {
                     "name": "keyword.control.semanticlanguage",
-                    "match": "\\b(if|while|for|elseif|else|repeat|then|do)\\b"
+                    "match": "\\b(if|while|elseif|else|repeat|then|do)\\b"
                 },
                 {
                     "name": "keyword.iofunc.semanticlanguage",
