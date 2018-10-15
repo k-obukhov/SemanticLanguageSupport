@@ -1,0 +1,156 @@
+{
+    "English Version While Loop":{
+        "prefix": "while",
+        "body": [
+            "while ${1:statement} do",
+            "\t$0",
+            "end"
+        ],
+        "description": "Snippet for loop \"while...\""
+    },
+    "Russian Version While Loop":{
+        "prefix": "пока",
+        "body": [
+            "пока ${1:условие} выполнять",
+            "\t$0",
+            "конец"
+        ],
+        "description": "Сниппет для цикла \"пока...\""
+    },
+    "English Version RepeatWhile Loop":{
+        "prefix": "repeat",
+        "body": [
+            "repeat",
+            "\t$0",
+            "while ${1:statement}",
+            "end"
+        ],
+        "description": "Snippet for loop \"repeat...until...\""
+    },
+    "Russian Version RepeatWhile Loop":{
+        "prefix": "выполнять",
+        "body": [
+            "выполнять",
+            "\t$0",
+            "пока ${1:условие}",
+            "конец"
+        ],
+        "description": "Сниппет для цикла \"выполнять...пока...\""
+    },
+    "English Version Function":{
+        "prefix": "function",
+        "body": [
+            "function(${1:${2:value type} ${3:name of var}}): ${4:value type}",
+            "\t$0",
+            "end"
+        ],
+        "description": "Snippet for Function"
+    },
+    "Russian Version Function":{
+        "prefix": "функция",
+        "body": [
+            "функция(${1:${2:тип переменной} ${3:имя переменной}}): ${4:тип возвращаемого значения}",
+            "\t$0",
+            "конец"
+        ],
+        "description": "Сниппет для Функции"
+    },
+    "English Version Procedure":{
+        "prefix": "procedure",
+        "body": [
+            "procedure(${1:${2:value type} ${3:name of var}}): void",
+            "\t$0",
+            "end"
+        ],
+        "description": "Snippet for Procedure"
+    },
+    "Russian Version Procedure":{
+        "prefix": "процедура",
+        "body": [
+            "процедура(${1:${2:тип переменной} ${3:имя переменной}}): void ${4:имя функции}",
+            "\t$0",
+            "конец"
+        ],
+        "description": "Сниппет для Процедуры"
+    },
+    "English Version If-Else":{
+        "prefix": "if else",
+        "body": [
+            "if ${1:statement} then",
+            "\t$0",
+            "else",
+            "\t$0",
+            "end"
+        ],
+        "description": "Snippet for \"if...else...\""
+    },
+    "Russian Version If-Else":{
+        "prefix": "если иначе",
+        "body": [
+            "если ${1:условие} то",
+            "\t$0",
+            "иначе",
+            "\t$0",
+            "конец"
+        ],
+        "description": "Сниппет для \"если... иначе...\""
+    },
+    "English Version If-ElseIf-Else":{
+        "prefix": "if elseif else",
+        "body": [
+            "if ${1:statement} then",
+            "\t$0",
+            "else if ${2:statement} then",
+            "\t$0",
+            "else",
+            "\t$0",
+            "end"
+        ],
+        "description": "Snippet for \"if... else if... else...\""
+    },
+    "Russian Version If-ElseIf-Else":{
+        "prefix": "если иначе",
+        "body": [
+            "если ${1:условие} то",
+            "\t$0",
+            "иначе если ${2:условие} то",
+            "\t$0",
+            "иначе",
+            "\t$0",
+            "конец"
+        ],
+        "description": "Сниппет для \"если... иначе если... иначе...\""
+    },
+    "English Version IfOnly":{
+        "prefix": "if",
+        "body": [
+            "if ${1:statement} then",
+            "\t$0",
+            "end"
+        ],
+        "description": "Snippet for \"if...\""
+    },
+    "Russian Version IfOnly":{
+        "prefix": "если",
+        "body": [
+            "если ${1:условие} то",
+            "\t$0",
+            "конец"
+        ],
+        "description": "Сниппет для \"если...\""
+    },
+    "English Version Array":{
+        "prefix": "array",
+        "body": [
+            "array [${1:size}] ${2:type} ${3:name}"
+        ],
+        "description": "Snippet for Array"
+    },
+    "Russian Version Array":{
+        "prefix": "массив",
+        "body": [
+            "массив [${1:размер}] ${2:тип} ${3:имя}"
+        ],
+        "description": "Сниппет для Массива"
+    }
+}

@@ -8,7 +8,8 @@
         "vscode": "^1.28.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [{
@@ -21,6 +22,12 @@
             "language": "semanticlanguage",
             "scopeName": "source.semlang",
             "path": "./syntaxes/semanticlanguage.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "semanticlanguage",
+                "path": "./snippets/semanticlanguage.snippets.json"
+            }
+        ]
     }
 }
