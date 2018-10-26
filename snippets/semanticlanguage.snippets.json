@@ -25,7 +25,7 @@
             "while ${1:statement}",
             "end"
         ],
-        "description": "Snippet for loop \"repeat...until...\""
+        "description": "Snippet for loop \"repeat...while...\""
     },
     "Russian Version RepeatWhile Loop":{
         "prefix": "выполнять",
@@ -58,7 +58,7 @@
     "English Version Procedure":{
         "prefix": "procedure",
         "body": [
-            "procedure(${1:${2:value type} ${3:name of var}}): void",
+            "procedure(${1:${2:value type} ${3:name of var}}): ${4:name of proc}",
             "\t$0",
             "end"
         ],
@@ -67,7 +67,7 @@
     "Russian Version Procedure":{
         "prefix": "процедура",
         "body": [
-            "процедура(${1:${2:тип переменной} ${3:имя переменной}}): void ${4:имя функции}",
+            "процедура(${1:${2:тип переменной} ${3:имя переменной}}): ${4:имя функции}",
             "\t$0",
             "конец"
         ],

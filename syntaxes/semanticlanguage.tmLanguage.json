@@ -132,13 +132,10 @@
                 {
                     "name": "keyword.control.semanticlanguage",
                     "match": "\\b(if|while|elseif|else|repeat|then|do)\\b"
-<<<<<<< HEAD
-=======
                 },
                 {
                     "name": "keyword.control.semanticlanguage",
                     "match": "\\b(если|пока|иначе-если|иначе|повторять|тогда|выполнять)\\b"
->>>>>>> 3698c624aaa123ab202303be965d8a33550f163b
                 },
                 {
                     "name": "keyword.iofunc.semanticlanguage",
