@@ -1,4 +1,4 @@
-# LearnProgramming README
+# SL Support README
 
 Semantic Language Extension for Visual Studio Code
 
