@@ -11,6 +11,10 @@
         "Programming Languages",
         "Snippets"
     ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/NothingIsGood/SemanticLanguageSupport"
+	},
     "contributes": {
         "languages": [{
             "id": "semanticlanguage",
