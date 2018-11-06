@@ -147,11 +147,11 @@
                 },
                 {
                     "name": "keyword.functions.semanticlanguage",
-                    "match": "\\b(in|out|var|function|procedure|call|return)\\b"
+                    "match": "\\b(val|ref|function|procedure|call|return)\\b"
                 },
                 {
                     "name": "keyword.functions.semanticlanguage",
-                    "match": "\\b(вх|вых|перем|функция|процедура|вызвать|возврат)\\b"
+                    "match": "\\b(вх|перем|функция|процедура|вызвать|возврат)\\b"
                 },
                 {
                     "name": "keyword.other.semanticlanguage",

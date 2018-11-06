@@ -1,6 +1,6 @@
 {
-    "name": "LearnProgramming",
-    "displayName": "SemanticLanguage",
+    "name": "semantic-language-support",
+    "displayName": "SemanticLanguageSupport",
     "description": "SemanticLanguage Support for Visual Studio Code",
     "version": "0.0.1",
     "publisher": "NothingIsGood",
