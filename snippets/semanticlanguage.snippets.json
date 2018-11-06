@@ -63,6 +63,21 @@
         "description": "Сниппет для конструкции \"переменная...\""
     },
 
+    "English Version Const":{
+        "prefix": "const",
+        "body": [
+            "const ${1:type} ${2:name} := ${3:expr};"
+        ],
+        "description": "Snippet for \"const...\""
+    },
+    "Russian Version Const":{
+        "prefix": "константа",
+        "body": [
+            "константа ${1:тип} ${2:имя} := ${3:выражение};"
+        ],
+        "description": "Сниппет для конструкции \"константа...\""
+    },
+
     "English Version While Loop":{
         "prefix": "while",
         "body": [
